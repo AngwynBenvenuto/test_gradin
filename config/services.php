@@ -31,11 +31,4 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
-    // Token publik (pk.*) yang sama dengan yang sudah dipakai langsung di
-    // resources/views/front/tracking.blade.php -- aman dipakai server-side juga,
-    // default-nya token yang sama supaya tidak perlu ubah .env kalau tidak mau.
-    'mapbox' => [
-        'token' => env('MAPBOX_TOKEN', 'pk.eyJ1IjoiaXJmYW5yb3NqaWRpIiwiYSI6ImNrNjc0bjU2bTE2YjYzcnA5YnpwOTM5dnEifQ.ZzyiAbCzUk_MbkmUi-ICRQ'),
-    ],
-
 ];
